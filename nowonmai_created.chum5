@@ -57,7 +57,7 @@
   <playername />
   <gamenotes />
   <primaryarm>Right</primaryarm>
-  <karma>0</karma>
+  <karma>3</karma>
   <special>0</special>
   <totalspecial>0</totalspecial>
   <totalattributes>20</totalattributes>
@@ -76,7 +76,7 @@
   <basewildreputation>0</basewildreputation>
   <created>True</created>
   <maxavail>12</maxavail>
-  <nuyen>4201.66666666667</nuyen>
+  <nuyen>4601.00000000000</nuyen>
   <startingnuyen>450000</startingnuyen>
   <sumtoten>10</sumtoten>
   <buildkarma>25</buildkarma>
@@ -566,7 +566,7 @@
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>True</requiresflymovement>
         <karma>0</karma>
-        <base>0</base>
+        <base>1</base>
         <notes />
         <name>Flight</name>
       </skill>
@@ -7284,7 +7284,7 @@
     <expense>
       <guid>3aa45b31-6e04-42bf-b9ee-1a59377df6d4</guid>
       <date>2021-09-29T22:54:08</date>
-      <amount>4201.66666666667</amount>
+      <amount>2601</amount>
       <reason>Starting Nuyen</reason>
       <type>Nuyen</type>
       <refund>False</refund>
@@ -7292,6 +7292,38 @@
       <undo>
         <karmatype>ImproveAttribute</karmatype>
         <nuyentype>ManualAdd</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>82c204e9-a9ff-480f-b0b8-3843d8575ae9</guid>
+      <date>2021-09-29T22:56:00</date>
+      <amount>2000</amount>
+      <reason>Get witka's crew back</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>ManualAdd</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>ba74f14e-f6a4-48ad-b940-eb7566ed74a3</guid>
+      <date>2021-09-29T22:56:37</date>
+      <amount>3</amount>
+      <reason>Getting wikta's crew back</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ManualAdd</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
         <objectid />
         <qty>0</qty>
         <extra />
@@ -7327,16 +7359,16 @@
     <NeonJungleLC version="1.0.0.0">""</NeonJungleLC>
     <SamplePlugin version="1.0.0.0">"This Char was saved with the SamplePlugin enabled!"</SamplePlugin>
     <ChummerHub.Client version="1.0.0.4">{
-  "DownloadedFromSINnersTime": "2021-09-30T05:54:08.6659117Z",
+  "DownloadedFromSINnersTime": "2021-09-30T05:59:03.1174077Z",
   "ZipFilePath": "C:\\Users\\SPQR\\AppData\\Local\\Temp\\SINner\\933a5b62-b14d-420a-bf58-5be711e54194",
   "FilePath": "",
   "editionNumber": null,
   "myHash": null,
   "language": "en-us",
   "siNnerMetaData": {
-    "id": "062fda0d-fd5f-414c-92a7-03e424ab769e",
+    "id": "a2226e53-13ab-4603-9438-a2707be7331b",
     "visibility": {
-      "id": "1c9f0cc0-6b5d-484b-b612-89b6fa750011",
+      "id": "020e0e67-e2ab-4269-b640-5a6c355cb7ee",
       "isPublic": true,
       "isGroupVisible": true,
       "userRights": null
@@ -7349,7 +7381,7 @@
   "id": "933a5b62-b14d-420a-bf58-5be711e54194",
   "downloadUrl": null,
   "uploadDateTime": null,
-  "lastChange": "2021-09-30T05:54:08.5112791Z",
+  "lastChange": "2021-09-30T05:58:30.6983035Z",
   "fileName": null
 }</ChummerHub.Client>
   </plugins>
