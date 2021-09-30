@@ -157,20 +157,20 @@
       <metatypemin>1</metatypemin>
       <metatypemax>6</metatypemax>
       <metatypeaugmax>10</metatypeaugmax>
-      <base>3</base>
+      <base>4</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>4</totalvalue>
+      <totalvalue>5</totalvalue>
     </attribute>
     <attribute>
       <name>LOG</name>
       <metatypemin>1</metatypemin>
       <metatypemax>6</metatypemax>
       <metatypeaugmax>10</metatypeaugmax>
-      <base>5</base>
+      <base>4</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>6</totalvalue>
+      <totalvalue>5</totalvalue>
     </attribute>
     <attribute>
       <name>WIL</name>
@@ -7390,16 +7390,16 @@
     <NeonJungleLC version="1.0.0.0">""</NeonJungleLC>
     <SamplePlugin version="1.0.0.0">"This Char was saved with the SamplePlugin enabled!"</SamplePlugin>
     <ChummerHub.Client version="1.0.0.4">{
-  "DownloadedFromSINnersTime": "2021-09-09T07:00:28.646197Z",
+  "DownloadedFromSINnersTime": "2021-09-30T05:52:36.8753214Z",
   "ZipFilePath": "C:\\Users\\SPQR\\AppData\\Local\\Temp\\SINner\\ba775c16-1359-4c9b-83e6-4b9172632f70",
   "FilePath": "",
   "editionNumber": null,
   "myHash": null,
   "language": "en-us",
   "siNnerMetaData": {
-    "id": "239b90dc-e2cd-465b-941c-d8350ef548e7",
+    "id": "e2d3216b-75bf-4375-ade8-423114630d8a",
     "visibility": {
-      "id": "ca24c641-2635-4d63-b5d5-249fc4390216",
+      "id": "d28b3870-4c89-428f-8b95-f6f6479a06a2",
       "isPublic": true,
       "isGroupVisible": true,
       "userRights": null
@@ -7412,7 +7412,7 @@
   "id": "ba775c16-1359-4c9b-83e6-4b9172632f70",
   "downloadUrl": null,
   "uploadDateTime": null,
-  "lastChange": "2021-09-09T07:00:18.6148795Z",
+  "lastChange": "2021-09-30T05:52:06.1812623Z",
   "fileName": null
 }</ChummerHub.Client>
   </plugins>
