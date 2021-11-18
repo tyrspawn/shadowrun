@@ -57,7 +57,7 @@
   <playername />
   <gamenotes />
   <primaryarm>Right</primaryarm>
-  <karma>3</karma>
+  <karma>0</karma>
   <special>0</special>
   <totalspecial>0</totalspecial>
   <totalattributes>20</totalattributes>
@@ -76,7 +76,7 @@
   <basewildreputation>0</basewildreputation>
   <created>True</created>
   <maxavail>12</maxavail>
-  <nuyen>4601.00000000000</nuyen>
+  <nuyen>3001.00000000000</nuyen>
   <startingnuyen>450000</startingnuyen>
   <sumtoten>10</sumtoten>
   <buildkarma>25</buildkarma>
@@ -383,7 +383,7 @@
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
+        <karma>1</karma>
         <base>0</base>
         <notes />
         <name>Blades</name>
@@ -656,7 +656,7 @@
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
+        <karma>2</karma>
         <base>0</base>
         <notes />
         <name>Heavy Weapons</name>
@@ -2169,7 +2169,13 @@
           <minrating />
           <maxrating />
           <rating>0</rating>
-          <clips />
+          <clips>
+            <clip>
+              <name>Minigrenade: Fragmentation</name>
+              <id>0c420ace-e1f7-43b9-8b87-5d62c5e0b594</id>
+              <count>6</count>
+            </clip>
+          </clips>
           <conceal>6</conceal>
           <avail>0</avail>
           <cost>0</cost>
@@ -2912,6 +2918,86 @@
       <wirelesson>False</wirelesson>
       <sortorder>0</sortorder>
       <weapontype>gun</weapontype>
+    </weapon>
+    <weapon>
+      <sourceid>dca59877-c9c9-4f53-81d2-9376c2b363cf</sourceid>
+      <guid>ce30d48f-a67c-49b6-bdee-9ac3d995464a</guid>
+      <name>Minigrenade: Fragmentation</name>
+      <category>Gear</category>
+      <type>Ranged</type>
+      <spec>Grenade Launcher</spec>
+      <spec2 />
+      <reach>0</reach>
+      <damage>18P(f) (-1/m)</damage>
+      <ap>+5</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <cyberware>False</cyberware>
+      <ammocategory />
+      <ammoslots>1</ammoslots>
+      <sizecategory />
+      <firingmode>Skill</firingmode>
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <clips />
+      <conceal>-2</conceal>
+      <avail>11F</avail>
+      <cost>0</cost>
+      <useskill>Heavy Weapons</useskill>
+      <useskillspec />
+      <range>Grenade Launchers</range>
+      <alternaterange />
+      <rangemultiply>1</rangemultiply>
+      <singleshot>1</singleshot>
+      <shortburst>3</shortburst>
+      <longburst>6</longburst>
+      <fullburst>10</fullburst>
+      <suppressive>20</suppressive>
+      <allowsingleshot>True</allowsingleshot>
+      <allowshortburst>True</allowshortburst>
+      <allowlongburst>True</allowlongburst>
+      <allowfullburst>True</allowfullburst>
+      <allowsuppressive>True</allowsuppressive>
+      <source>SR5</source>
+      <page>435</page>
+      <parentid>0c420ace-e1f7-43b9-8b87-5d62c5e0b594</parentid>
+      <allowaccessory>True</allowaccessory>
+      <weaponname />
+      <included>False</included>
+      <equipped>True</equipped>
+      <requireammo>True</requireammo>
+      <accuracy>0</accuracy>
+      <mount />
+      <stolen>False</stolen>
+      <extramount />
+      <location />
+      <notes />
+      <discountedcost>False</discountedcost>
+      <weaponslots />
+      <doubledcostweaponslots />
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <matrixcmfilled>0</matrixcmfilled>
+      <wirelessbonus />
+      <wirelesson>False</wirelesson>
+      <sortorder>0</sortorder>
+      <weapontype>gear</weapontype>
     </weapon>
   </weapons>
   <cyberwares>
@@ -6965,6 +7051,62 @@
       <homenode>False</homenode>
       <sortorder>0</sortorder>
     </gear>
+    <gear>
+      <sourceid>8e1583bf-4cc5-4498-a800-36cb61d3fb27</sourceid>
+      <guid>0c420ace-e1f7-43b9-8b87-5d62c5e0b594</guid>
+      <name>Minigrenade: Fragmentation</name>
+      <category>Ammunition</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>10</qty>
+      <avail>11F</avail>
+      <cost>100</cost>
+      <extra>Grenade Launchers</extra>
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <weaponguid>ce30d48f-a67c-49b6-bdee-9ac3d995464a</weaponguid>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>435</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype>glauncher</ammoforweapontype>
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue>Grenade Launchers</forcedvalue>
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes />
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
   </gears>
   <vehicles>
     <vehicle>
@@ -7329,6 +7471,102 @@
         <extra />
       </undo>
     </expense>
+    <expense>
+      <guid>ad79cce2-7165-4f8f-a9ec-89e73f5466ee</guid>
+      <date>2021-11-03T22:15:57</date>
+      <amount>-1000</amount>
+      <reason>Purchased Gear Minigrenade: Fragmentation</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>0c420ace-e1f7-43b9-8b87-5d62c5e0b594</objectid>
+        <qty>10</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>b07464c7-9b88-4708-b984-2c6a935d3624</guid>
+      <date>2021-11-17T21:44:04</date>
+      <amount>-600</amount>
+      <reason>Purchased Gear Minigrenade: Fragmentation</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>0c420ace-e1f7-43b9-8b87-5d62c5e0b594</objectid>
+        <qty>6</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>76d4f359-e774-4be6-8385-24bef3923f8e</guid>
+      <date>2021-11-17T21:44:56</date>
+      <amount>7</amount>
+      <reason>Adjust to what's on VTT</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ManualAdd</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>50ab909b-9656-4dec-b521-f4ee58f77e52</guid>
+      <date>2021-11-17T21:46:47</date>
+      <amount>-2</amount>
+      <reason>Active Skill Heavy Weapons 0 -&gt; 1</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>AddSkill</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid>7ffc520b-97ed-4041-addc-bdb0e55c1414</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>526cd608-3e57-4f82-87b2-3ce41a3d90c9</guid>
+      <date>2021-11-17T21:48:39</date>
+      <amount>-4</amount>
+      <reason>Active Skill Heavy Weapons 1 -&gt; 2</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveSkill</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid>7ffc520b-97ed-4041-addc-bdb0e55c1414</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>92b11776-a5ed-4dc6-ac42-00dda9fb2430</guid>
+      <date>2021-11-17T21:52:04</date>
+      <amount>-4</amount>
+      <reason>Active Skill Blades 1 -&gt; 2</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveSkill</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid>d20b265e-2e31-47fe-b6ef-c3d3c1a74091</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
   </expenses>
   <gearlocations>
     <location>
@@ -7359,16 +7597,16 @@
     <NeonJungleLC version="1.0.0.0">""</NeonJungleLC>
     <SamplePlugin version="1.0.0.0">"This Char was saved with the SamplePlugin enabled!"</SamplePlugin>
     <ChummerHub.Client version="1.0.0.4">{
-  "DownloadedFromSINnersTime": "2021-09-30T05:59:03.1174077Z",
+  "DownloadedFromSINnersTime": "2021-11-18T05:52:32.0410946Z",
   "ZipFilePath": "C:\\Users\\SPQR\\AppData\\Local\\Temp\\SINner\\933a5b62-b14d-420a-bf58-5be711e54194",
   "FilePath": "",
   "editionNumber": null,
   "myHash": null,
   "language": "en-us",
   "siNnerMetaData": {
-    "id": "a2226e53-13ab-4603-9438-a2707be7331b",
+    "id": "fa97a632-6327-4ba6-91e2-9af94c8c89ab",
     "visibility": {
-      "id": "020e0e67-e2ab-4269-b640-5a6c355cb7ee",
+      "id": "43489685-3242-456a-ae9b-7d0e82c748b9",
       "isPublic": true,
       "isGroupVisible": true,
       "userRights": null
@@ -7381,7 +7619,7 @@
   "id": "933a5b62-b14d-420a-bf58-5be711e54194",
   "downloadUrl": null,
   "uploadDateTime": null,
-  "lastChange": "2021-09-30T05:58:30.6983035Z",
+  "lastChange": "2021-11-18T05:52:17.2066944Z",
   "fileName": null
 }</ChummerHub.Client>
   </plugins>
