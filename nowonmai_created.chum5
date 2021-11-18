@@ -591,7 +591,7 @@
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
+        <karma>1</karma>
         <base>0</base>
         <notes />
         <name>Free-Fall</name>
@@ -825,7 +825,7 @@
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
+        <karma>1</karma>
         <base>0</base>
         <notes />
         <name>Perception</name>
@@ -7599,6 +7599,54 @@
         <extra />
       </undo>
     </expense>
+    <expense>
+      <guid>c002f1a5-3bfc-4ae5-be32-1ed63c1e0825</guid>
+      <date>2021-11-17T22:57:53</date>
+      <amount>4</amount>
+      <reason>Art Heist</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ManualAdd</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>a5f367e9-09c8-418d-bdd5-d397c6e4c59c</guid>
+      <date>2021-11-17T22:58:17</date>
+      <amount>-2</amount>
+      <reason>Active Skill Perception 0 -&gt; 1</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>AddSkill</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid>9582624a-31e3-4172-b5d5-8aae2415b6f3</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>625f352d-8da6-43b0-b441-bc8d70603548</guid>
+      <date>2021-11-17T23:00:12</date>
+      <amount>-2</amount>
+      <reason>Active Skill Free-Fall 0 -&gt; 1</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>AddSkill</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid>2b7a9dbb-8446-4463-aa65-2bfb60988af7</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
   </expenses>
   <gearlocations>
     <location>
@@ -7629,16 +7677,16 @@
     <NeonJungleLC version="1.0.0.0">""</NeonJungleLC>
     <SamplePlugin version="1.0.0.0">"This Char was saved with the SamplePlugin enabled!"</SamplePlugin>
     <ChummerHub.Client version="1.0.0.4">{
-  "DownloadedFromSINnersTime": "2021-11-18T06:46:11.9351286Z",
+  "DownloadedFromSINnersTime": "2021-11-18T07:00:16.7729289Z",
   "ZipFilePath": "C:\\Users\\SPQR\\AppData\\Local\\Temp\\SINner\\933a5b62-b14d-420a-bf58-5be711e54194",
   "FilePath": "",
   "editionNumber": null,
   "myHash": null,
   "language": "en-us",
   "siNnerMetaData": {
-    "id": "9373023a-18c8-496d-9ec5-3a6d6f6af167",
+    "id": "7933a2d5-8e42-449a-8dcc-aad81977a3da",
     "visibility": {
-      "id": "086997df-e118-471e-a8d1-998b90b104c1",
+      "id": "496c0a11-425a-49aa-b84c-374bdf136c74",
       "isPublic": true,
       "isGroupVisible": true,
       "userRights": null
@@ -7651,7 +7699,7 @@
   "id": "933a5b62-b14d-420a-bf58-5be711e54194",
   "downloadUrl": null,
   "uploadDateTime": null,
-  "lastChange": "2021-11-18T06:43:56.3027885Z",
+  "lastChange": "2021-11-18T06:58:01.5414548Z",
   "fileName": null
 }</ChummerHub.Client>
   </plugins>
