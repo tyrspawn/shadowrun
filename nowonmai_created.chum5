@@ -76,7 +76,7 @@
   <basewildreputation>0</basewildreputation>
   <created>True</created>
   <maxavail>12</maxavail>
-  <nuyen>78001.00000000000</nuyen>
+  <nuyen>68217.67000000000</nuyen>
   <startingnuyen>450000</startingnuyen>
   <sumtoten>10</sumtoten>
   <buildkarma>25</buildkarma>
@@ -7583,6 +7583,22 @@
         <extra />
       </undo>
     </expense>
+    <expense>
+      <guid>2d6365b8-311b-4e53-88df-7f4cfeb242cf</guid>
+      <date>2021-11-17T22:45:37</date>
+      <amount>-9783.33</amount>
+      <reason>paying for lifestyle</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>ManualSubtract</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
   </expenses>
   <gearlocations>
     <location>
@@ -7613,16 +7629,16 @@
     <NeonJungleLC version="1.0.0.0">""</NeonJungleLC>
     <SamplePlugin version="1.0.0.0">"This Char was saved with the SamplePlugin enabled!"</SamplePlugin>
     <ChummerHub.Client version="1.0.0.4">{
-  "DownloadedFromSINnersTime": "2021-11-18T06:43:56.2847645Z",
+  "DownloadedFromSINnersTime": "2021-11-18T06:46:11.9351286Z",
   "ZipFilePath": "C:\\Users\\SPQR\\AppData\\Local\\Temp\\SINner\\933a5b62-b14d-420a-bf58-5be711e54194",
   "FilePath": "",
   "editionNumber": null,
   "myHash": null,
   "language": "en-us",
   "siNnerMetaData": {
-    "id": "994152b3-d763-4aaf-a792-acbde7b2571e",
+    "id": "9373023a-18c8-496d-9ec5-3a6d6f6af167",
     "visibility": {
-      "id": "b0bd8081-4674-4e58-b9c1-e98a709c4390",
+      "id": "086997df-e118-471e-a8d1-998b90b104c1",
       "isPublic": true,
       "isGroupVisible": true,
       "userRights": null
@@ -7635,7 +7651,7 @@
   "id": "933a5b62-b14d-420a-bf58-5be711e54194",
   "downloadUrl": null,
   "uploadDateTime": null,
-  "lastChange": "2021-11-18T06:43:52.5397696Z",
+  "lastChange": "2021-11-18T06:43:56.3027885Z",
   "fileName": null
 }</ChummerHub.Client>
   </plugins>
