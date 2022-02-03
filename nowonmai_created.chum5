@@ -114,7 +114,7 @@
   <aiadvancedprogramlimit>0</aiadvancedprogramlimit>
   <currentcounterspellingdice>0</currentcounterspellingdice>
   <streetcred>0</streetcred>
-  <notoriety>0</notoriety>
+  <notoriety>1</notoriety>
   <publicawareness>0</publicawareness>
   <burntstreetcred>0</burntstreetcred>
   <baseastralreputation>0</baseastralreputation>
@@ -9327,13 +9327,13 @@
     <ChummerHub.Client version="5.220.0.0">{
   "language": "en-us",
   "siNnerMetaData": {
-    "id": "fb7b298a-8d33-4591-8dd5-148449e5f4e9",
+    "id": "736cc751-4fd6-43b2-8eba-7700bdb1f61a",
     "tags": []
   },
-  "id": "5e77939c-2cc0-4aed-846b-689fe7ff7275",
-  "lastChange": "2022-02-03T07:03:55.3974308+00:00",
-  "DownloadedFromSINnersTime": "2022-02-03T07:04:15.4058226Z",
-  "ZipFilePath": "C:\\Users\\SPQR\\AppData\\Local\\Temp\\SINner\\5e77939c-2cc0-4aed-846b-689fe7ff7275",
+  "id": "c7fa92ed-9dfc-4d6d-bce6-25f93cf7762b",
+  "lastChange": "2022-02-03T07:04:15.4268239+00:00",
+  "DownloadedFromSINnersTime": "2022-02-03T07:05:34.7679281Z",
+  "ZipFilePath": "C:\\Users\\SPQR\\AppData\\Local\\Temp\\SINner\\c7fa92ed-9dfc-4d6d-bce6-25f93cf7762b",
   "FilePath": ""
 }</ChummerHub.Client>
   </plugins>
